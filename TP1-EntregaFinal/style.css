@@ -1,0 +1,94 @@
+body{
+    background-color: #CEBDE6;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.title h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    color: #2d2d5e;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #2D1748;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
+}
+
+.card h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0px;
+    padding-bottom: 25px;
+    color: #CEBDE6;
+}
+
+.botones{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boton{
+    width: 250px;
+    height: 55px;
+    top: 20px;
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #30C07F;
+    border: 1px solid #A9EBCD;
+    border-radius: 9999px;
+}
+
+.boton:hover{
+    width: 250px;
+    height: 55px;
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%; 
+    background: #007E45;
+    border: 1px solid #A9EBCD;
+    border-radius: 9999px;
+}
+
+.card a{
+    text-decoration: none;
+    width: 83px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    color: #FFFFFF;
+}
